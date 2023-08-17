@@ -1,16 +1,80 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Adoption Application</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="div">
+      <h1>Dog Adoption Application</h1>
+      <form action="submit.html" method="post">
+        <table class="center">
+          <tr>
+            <td><label for="name">Name</label></td>
+            <td><input type="text" id="name" name="name" /></td>
+          </tr>
+          <tr>
+            <td><label for="Phone">Phone Number</label></td>
+            <td><input type="text" id="phone" name="phone" /></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address</label></td>
+            <td><input type="text" id="address" name="address" /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="checkbox"
+                >Have you ever lived with a Dog before?</label
+              >
+            </td>
+            <td>
+              <input
+                type="checkbox"
+                id="checkbox"
+                name="checkbox"
+                value="Yes"
+              />
+              Yes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              <input type="checkbox" id="checkbox" name="checkbox" value="No" />
+              No
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="multiSelect"
+                >Please select your preferred breeds</label
+              >
+            </td>
+            <td>
+              <select id="multiSelect" name="multiSelect" multiple>
+                <option value="husky">Husky</option>
+                <option value="labrador">Labrador</option>
+                <option value="poodle">Poodle</option>
+                <option value="retriever">Retriever</option>
+                <option value="shepherd">Shepherd</option>
+                <option value="terrier">Terrier</option>
+                <option value="wolf">Wolf</option>
+                <option value="yorkshireterrier">Yorkshire Terrier</option>
+                <option value="beagle">Beagle</option>
+                <option value="chow">Chow</option>
+                <option value="dingo">Dingo</option>
+                <option value="doberman">Doberman</option>
+                <option value="englishcockerspaniel">
+                  English Cocker Spaniel
+                </option>
+                <option value="germanpinscher">German Pinscher</option>
+                <option value="malinois">Malinois</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align: center;" colspan="2"><input type="submit" value="Submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>  
+    </main>
+  </body>
 </html>
